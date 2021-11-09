@@ -1,0 +1,24 @@
+% java Tester Eerie eyes seen near lake.
+================================
+char     frequency     code
+--------------------------------
+E        1             11000
+e        8             10
+r        2             0111
+i        1             11001
+         4             00
+y        1             11110
+s        2             0110
+n        2             1101
+a        2             1110
+l        1             0100
+k        1             0101
+.        1             11111
+================================
+Encoded bit stream: 
+110001001111100110001011110100110000110101011010011011011100111000100111001011011111
+
+Total number of bits without Huffman coding (8-bits per character): 208
+Total number of bits with Huffman coding: 84
+Compression Ratio: (( Total number of bits with Huffman coding/ Total number of bits without Huffman coding)*100 for percentage of compression) 40.38461538461539
+Decoded String: Eerie eyes seen near lake.

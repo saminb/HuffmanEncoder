@@ -1,0 +1,31 @@
+
+Samin Bahizad- Programming Assignment 2- Huffman programming compression assignment
+A reflection page that answers the following questions:
+a. How much time did you spend on the assignment?
+ I spent 1 week trying understand what I should do and what is huffman coding. I had to watch some videos 
+and look at the slides that was provided to figure out the algorithm for it and how I should implement it.
+Then, I spent couple of days designing and creating the program. At first I had nine classes and I decided
+to have two imbedded classes in my tester class. However, it took me about a week and a half to make sure 
+the compression ratio and the new bits were done right using the huffman code. However, I am not sure if I still
+used the generics correctly. 
+b. Challenges you faced while implementing this assignment?
+I had no clue how to do huffman coding and implementing it with priority queue, arrays and heap. So, I had to explore each concept 
+again and figure out how to go about it. I ended up using linkedlist to create the HuffmanFrequencyTable and I used min heap for the ArrayHeap class.
+ I also realized how I could implement the left (0) and right (1) for the tree and get a decent compression for the bits. I think I am still a little 
+confused about the generics but I think I need to explore it separately.
+i. What kind of help did you seek to overcome the challenges?
+Honestly, I think our seminar for this class was helpful in understanding huffman coding. 
+The TA provided videos and practices which helped me understand it.
+c. What are some things you did really well on this assignment?
+I think my frequency table was done well. I think my code is much clearer to follow comparing to my other projects. 
+The encoding and deconding also I think I did well. I believe the only part I struggled was making everything generic and 
+I think I should have read the assignment better regarding that part when I started so I would have more time to figure it out but I totally left it to the last minute. 
+d. If you could do this assignment over, what would you do differently?
+ I think at first I panicked a little, not knowing how huffman works. I think if I were to do this assignment over, I would start by creating structure and reading the 
+generics regarding arrayheap, priorityqueue and then focus on Huffman coding. 
+e. What do you feel is the purpose of this assignment?
+
+I think the purpose was for us to learn about compression and also test our capabilities with priorityqueue, min heap, learning endcoding 
+and decoding for huffman coding, and learning to use our tools like arrays and linkedlist to make the program work successfully to 
+compress and reduce the number of bits for the words. This is very important because a lot of times it is used specially to make thing 
+more efficent and faster for people to access.  
